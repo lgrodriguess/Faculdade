@@ -14,15 +14,19 @@ Exemplo de estrutura:
 
 ```
 📦 programacao-estudos
- ┣ 📂 estrutura-de-dados
+ ┣ 📂 Aeds I
  ┃ ┣ 📂 exercicios
  ┃ ┣ 📂 trabalhos
  ┃ ┗ 📂 provas
- ┣ 📂 programacao-orientada-a-objetos
+ ┣ 📂 Aeds II
  ┃ ┣ 📂 exercicios
  ┃ ┣ 📂 trabalhos
  ┃ ┗ 📂 provas
- ┣ 📂 algoritmos
+ ┣ 📂 Aeds III
+ ┃ ┣ 📂 exercicios
+ ┃ ┣ 📂 trabalhos
+ ┃ ┗ 📂 provas
+ ┣ 📂 Orientação a objetos
  ┃ ┣ 📂 exercicios
  ┃ ┣ 📂 trabalhos
  ┃ ┗ 📂 provas
