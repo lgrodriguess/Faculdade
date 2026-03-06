@@ -63,6 +63,6 @@ Caso você seja aluno da mesma disciplina, recomenda-se utilizar o conteúdo **a
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **[Seu Nome]**
+Desenvolvido por **[Luan Rodrigues]**
 
 ---
