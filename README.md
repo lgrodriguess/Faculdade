@@ -34,14 +34,12 @@ Exemplo de estrutura:
 ```
 ## 📄 Disciplinas
 
-Abaixo estão as disciplinas presentes neste repositório e as linguagens utilizadas em cada uma.
-
 | Período | Disciplina | Linguagem / Tecnologias |
 |--------|------------|------------------------|
-| 1° | AEDS I | ⚙️ C++ |
-| 2° | AEDS II | ⚙️ C++ |
-| 3° | AEDS III | ⚙️ C / C++ |
-| 3° | Orientação a Objetos | ☕ Java |
+| 1° | AEDS I | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20"/> C++ |
+| 2° | AEDS II | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20"/> C++ |
+| 3° | AEDS III | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="20"/> C / C++ |
+| 3° | Orientação a Objetos | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="20"/> Java |
 
 
 ---
