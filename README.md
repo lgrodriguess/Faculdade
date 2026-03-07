@@ -32,6 +32,17 @@ Exemplo de estrutura:
  ┃ ┗ 📂 provas
  ┗ README.md
 ```
+## 📄 Disciplinas
+
+Abaixo estão as disciplinas presentes neste repositório e as linguagens utilizadas em cada uma.
+
+| Período | Disciplina | Linguagem / Tecnologias |
+|--------|------------|------------------------|
+| 1° | AEDS I | ⚙️ C++ |
+| 2° | AEDS II | ⚙️ C++ |
+| 3° | AEDS III | ⚙️ C / C++ |
+| 3° | Orientação a Objetos | ☕ Java |
+
 
 ---
 
