@@ -1,4 +1,4 @@
-
+//Faça uma classe para o modelo “Roda” e outra para “Produto”. E instancie dois objetos para cada classe
 package com.mycompany.ex1s1;
 
 public class Ex1S1 {
