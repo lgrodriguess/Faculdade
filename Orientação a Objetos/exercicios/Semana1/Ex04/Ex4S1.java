@@ -1,3 +1,4 @@
+//Faça uma classe para o modelo “Carro” e outra para “Proprietário”. Instancie dois objetos para cada classe e preencha os atributos dos objetos utilizando os métodos set
 package com.mycompany.ex4s1;
 
 public class Ex4S1 {
