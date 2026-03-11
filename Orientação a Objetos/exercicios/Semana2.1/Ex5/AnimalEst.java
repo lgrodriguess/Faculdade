@@ -1,4 +1,4 @@
-package com.github.lgrodriguess.ex5;
+package com.github.lgrodriguess.ex5certo;
 import java.util.Scanner;
 
 public class AnimalEst {
@@ -74,6 +74,31 @@ public class AnimalEst {
                    "Raca= '" + this.raca + "'\n" +
                    "Idade= '" + this.idade + "'\n" +
                    "Peso= '" + this.peso + "'\n" +
+                   "Som= '" + fazerSom() + "'\n" +
+                   "Idade Humana= '" + calcIdadeHumana() + "'\n" +
                    "}";          
         }
+        public String fazerSom(){
+            if(getEspecie().equals("Cachorro")){
+                return getRaca() + " Faz au-au";
+            }else if(getEspecie().equals("Gato")){
+                return getRaca() + " Faz miau";
+            }else if(getEspecie().equals("Passarinho")){
+                return getRaca() + " Faz piu";
+            }else{
+                return "Nao sei o barulho";
+            }
+        }
+        public int calcIdadeHumana(){
+            if(getEspecie().equals("Cachorro")){
+                return this.idade * 7;
+            }else if(getEspecie().equals("Gato")){
+                return this.idade * 5;
+            }else if(getEspecie().equals("Passarinho")){
+                return this.idade * 9;
+            }else{
+                return 0;
+            }
+        }
+        
 }
