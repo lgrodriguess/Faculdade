@@ -21,7 +21,7 @@ public class Casa {
     }
     
    //Copiar
-    Casa(Casa other){
+    void Casa(Casa other){
         this.endereco = other.getEndereco();
         this.area = other.getArea();
         this.quartos = other.getQuartos();
