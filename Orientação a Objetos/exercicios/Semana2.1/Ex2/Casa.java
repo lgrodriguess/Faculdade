@@ -29,7 +29,7 @@ public class Casa {
     }
     
     //Getters
-    private String getEndereco(){
+    public String getEndereco(){
         return this.endereco;
     }
     private double getArea(){
