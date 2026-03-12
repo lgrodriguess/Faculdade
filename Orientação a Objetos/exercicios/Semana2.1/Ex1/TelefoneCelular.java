@@ -24,7 +24,7 @@ public class TelefoneCelular {
    }
     
    //getters
-   private String getMarca(){
+   public String getMarca(){
        return this.marca;
    }
    private String getModelo(){
