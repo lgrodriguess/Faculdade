@@ -27,13 +27,13 @@ public class TelefoneCelular {
    public String getMarca(){
        return this.marca;
    }
-   private String getModelo(){
+    public String getModelo(){
        return this.modelo;
    }
-   private double getPreco(){
+   public double getPreco(){
        return this.preco;
    }
-   private int getMemoria(){
+   public int getMemoria(){
        return this.memoria;
    }
    
