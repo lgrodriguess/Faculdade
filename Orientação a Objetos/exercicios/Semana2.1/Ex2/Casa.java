@@ -32,13 +32,13 @@ public class Casa {
     public String getEndereco(){
         return this.endereco;
     }
-    private double getArea(){
+    public double getArea(){
         return this.area;
     }
-    private int getQuartos(){
+    public int getQuartos(){
         return this.quartos;
     }
-    private double getPreco(){
+    public double getPreco(){
         return this.preco;
     }
     
