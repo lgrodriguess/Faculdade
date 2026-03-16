@@ -15,42 +15,29 @@ Saída: O elemento majoritário no vetor.*/
 #include <iostream>
 using namespace std;
 
-int elementoMajoritario(int v[], int n) {
-    int candidato = v[0];
-    int contador = 1;
-
-    for(int i = 1; i < n; i++) {
-        if(contador == 0) {
-            candidato = v[i];
-            contador = 1;
-        }
-        else if(v[i] == candidato) {
-            contador++;
-        }
-        else {
-            contador--;
-        }
-    }
-
-    return candidato;
-}
-
-int main() {
-    int n;
-    
-    cout << "Digite o tamanho do vetor: ";
-    cin >> n;
-
-    int v[n];
-
-    cout << "Digite os elementos do vetor:\n";
-    for(int i = 0; i < n; i++) {
-        cin >> v[i];
-    }
-
-    int resultado = elementoMajoritario(v, n);
-
-    cout << "Elemento majoritario: " << resultado << endl;
-
-    return 0;
+int main(){
+	int	vetor[] = {4,6,3,4,4,7};
+	int tamanhoV = 6;
+	
+	int elementoMajoritario = 0;
+	int contador = 0;
+	
+	for(int i = 0; i < tamanhoV; i++){
+		contador = 0;
+		
+		for(int j = 0; j < tamanhoV; j++){
+			
+			if(vetor[j] == vetor[i]){
+				contador ++;
+			}
+			
+			if(contador >= tamanhoV/2){
+				elementoMajoritario = vetor[i];
+				
+			}
+		}		
+	}
+	
+	cout<<"O elemento majoritario do vetor é: "<<elementoMajoritario;
+	
 }
