@@ -1,4 +1,4 @@
-package com.github.lgrodriguess.mavenproject2;
+package com.github.lgrodriguess.ex06;
 import java.util.Scanner;
 
 public class Produto {
