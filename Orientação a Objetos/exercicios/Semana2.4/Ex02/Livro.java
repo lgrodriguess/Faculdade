@@ -1,4 +1,4 @@
-package com.github.viniplugner.ex02;
+package com.github.lgrodriguess.ex02;
 
 import java.util.Scanner;
 
