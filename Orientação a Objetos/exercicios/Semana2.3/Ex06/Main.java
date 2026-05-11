@@ -51,7 +51,7 @@ public class Main {
                         gerenciadorEstoque.removeProduct(encontrado);
                         System.out.println("Produto removido com sucesso!");
                     }
-                    break; // ✅ Fix 4: break adicionado
+                    break; 
                 }
                 case 3: {
                     System.out.print("Código do produto: ");
