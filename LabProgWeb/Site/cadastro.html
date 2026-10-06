@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pré-cadastro – PetMatch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+<a class="logo" href="index.html">PetMatch</a>
+<nav aria-label="Principal">
+<a href="index.html">Início</a>
+<a href="sobre.html">Sobre nós</a>
+<a href="cadastro.html" aria-current="page">Quero adotar</a>
+</nav></div></header>
+<main><section><div class="wrap">
+<h2>Pré-cadastro de adotante</h2>
+<form action="#" method="post">
+<fieldset><legend>Seus dados</legend>
+<label>Nome completo<input type="text" name="nome" required></label>
+<label>E-mail<input type="email" name="email" required></label>
+<label>Telefone<input type="tel" name="telefone" placeholder="(32) 90000-0000"></label>
+<label>Cidade<input type="text" name="cidade" required></label>
+</fieldset>
+<fieldset><legend>Sobre a adoção</legend>
+<label>Pet de interesse
+<select name="pet"><option>Thor</option><option>Mel</option><option>Bidu</option><option>Luna</option><option>Ainda não sei</option></select></label>
+<label>Onde você mora?
+<select name="moradia"><option>Casa com quintal</option><option>Casa sem quintal</option><option>Apartamento</option></select></label>
+<div class="row" role="group" aria-label="Já teve pets?">
+<span>Já teve pets?</span>
+<label><input type="radio" name="pets" value="sim" checked> Sim</label>
+<label><input type="radio" name="pets" value="nao"> Não</label>
+</div>
+<label>Por que quer adotar?<textarea name="motivo" rows="4"></textarea></label>
+</fieldset>
+<label class="check"><input type="checkbox" required> Aceito receber contato da ONG sobre minha adoção.</label>
+<button class="btn" type="submit">Enviar pré-cadastro</button>
+</form>
+</div></section></main>
+<footer><div class="wrap"><p>PetMatch – adotar é um ato de amor. © 2026</p></div></footer>
+</body>
+</html>
