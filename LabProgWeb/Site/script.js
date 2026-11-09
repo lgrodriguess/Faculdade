@@ -112,7 +112,9 @@ $(function () {
       var pet = PETS[id];
       if (!pet) { return; }
 
-      $('#modal-emoji').text(pet.emoji);
+      // Foto do pet (fotos.js); se não houver, mostra o emoji.
+      if (window.PetFotos) { window.PetFotos.preencher($('#modal-emoji'), id, pet.emoji); }
+      else { $('#modal-emoji').text(pet.emoji); }
       $('#modal-titulo').text(pet.nome);
       $('#modal-info').text(pet.info);
       $('#modal-historia').text(pet.historia);
